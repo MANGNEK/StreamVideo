@@ -4,7 +4,7 @@ services:
   streamvideo:
     build:
       context: .
-      dockerfile: dockerfile
+      dockerfile: dockerfile.yml
     ports:
       - "5036:8080"
     volumes:
