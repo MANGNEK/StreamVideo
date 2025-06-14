@@ -9,7 +9,7 @@ namespace StreamVideo.Controllers
     [Route("[controller]")]
     public class StreamVideo : Controller
     {
-        private readonly string[] allowedVideos = new[] { "video1", "video2", "video3", "video4", "video5", "video6", "video7", "video8", "video9", "video10", "video11", "video12", "video13", "video14", "video15", "video16", "video17", "video18", "video19", "video20" };
+        private readonly string[] allowedVideos = new[] { "video1", "video2", "video3", "video4", "video5", "video6", "video7", "video8", "video9", "video10", "video11", "video12", "video13", "video14", "video15", "video16", "video17", "video18", "video19", "video20", "video21", "video22", "video23", "video24", "video25", "video26", "video27", "video28" };
         private readonly string videoFolder = Path.Combine(Directory.GetCurrentDirectory(), "Video");
         private const string UploadKey = "080321";
         [EnableCors("AllowAll")]
